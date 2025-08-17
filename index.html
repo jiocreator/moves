@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Link Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Movie Link Store</h1>
+    <input type="text" id="search" placeholder="Search for movie...">
+  </header>
+
+  <section id="trending">
+    <h2>Trending</h2>
+    <!-- Cards via JS -->
+  </section>
+
+  <section id="reviews-news">
+    <h2>Review & News</h2>
+    <!-- News cards via JS -->
+  </section>
+
+  <section id="popular-posts">
+    <h2>Popular Posts</h2>
+    <div class="tabs">
+      <button onclick="showPopular('monthly')">Monthly</button>
+      <button onclick="showPopular('weekly')">Weekly</button>
+      <button onclick="showPopular('daily')">Daily</button>
+    </div>
+    <div id="popular-content"><!-- Cards via JS --></div>
+  </section>
+
+  <section id="categories">
+    <h2>Categories</h2>
+    <div class="category-grid">
+      <!-- Buttons via JS -->
+    </div>
+  </section>
+
+  <footer>
+    <h3>MLSBD - The Largest Movie Link Store in Bangladesh</h3>
+    <button>MLSBD</button>
+    <p>Welcome to MLSBD. Enjoy your movies and series totally free.</p>
+    <p>DMCA Info | About Us | Contact Us</p>
+    <p>Copyright © 2016 - 2025 MLSBD. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
