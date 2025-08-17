@@ -1,0 +1,13 @@
+[
+  {
+    "title": "CID (2025) S02E23",
+    "tmdb_id": "12345",  // TMDB TV ID for CID
+    "m3u_url": "https://example.com/cid.m3u",
+    "categories": ["TV Series", "Bangla Dubbed"],
+    "home_thumbnail": "",
+    "details_thumbnail": "",
+    "added_date": "2025-08-16",
+    "type": "series"
+  },
+  // More
+]
