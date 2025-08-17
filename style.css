@@ -1,0 +1,20 @@
+body { background: #f0f0f0; font-family: Arial; margin: 0; }
+header { text-align: center; background: #333; color: white; padding: 10px; }
+input { width: 80%; padding: 10px; margin: 10px 0; }
+section { margin: 20px; }
+h2 { background: red; color: white; padding: 10px; text-align: center; }
+.card { display: inline-block; width: 300px; margin: 10px; background: white; border-radius: 10px; padding: 10px; text-align: center; }
+.card img { width: 100%; height: auto; }
+.episode-section { background: #fff; margin: 10px; padding: 10px; border-radius: 10px; }
+.episode-header { background: red; color: white; padding: 10px; border-radius: 10px; }
+.download-button { background: orange; color: white; border: none; padding: 10px; margin: 5px; border-radius: 20px; cursor: pointer; width: 100%; }
+.watch-button { background: brown; color: white; border: none; padding: 10px; margin: 5px; border-radius: 20px; cursor: pointer; width: 100%; }
+.tabs button { background: black; color: white; padding: 10px 20px; margin: 5px; }
+.tabs button.active { background: red; }
+.category-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 5px; }
+.category-grid button { background: black; color: white; padding: 10px; }
+footer { background: #333; color: white; text-align: center; padding: 20px; }
+footer button { background: red; color: white; border: none; padding: 10px 20px; border-radius: 5px; }
+#movie-info { text-align: center; }
+#movie-info img { width: 300px; }
+#screenshots img { width: 200px; margin: 5px; }
